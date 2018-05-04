@@ -7,7 +7,7 @@
     <ProjectGuid>{99EB8A0D-1EBB-4AB7-9F41-6CD1E8D4C14E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_1_Understanding_Threads</RootNamespace>
-    <AssemblyName>_1_Understanding_Threads</AssemblyName>
+    <AssemblyName>1-Understanding-Threads</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
