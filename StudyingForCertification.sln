@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Understanding-Threads", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Using-A-Background-Thread", "2-Using-A-Background-Thread\2-Using-A-Background-Thread.csproj", "{C81651F9-EB66-4E7B-B1B3-3C695DAD6930}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topics Advanced", "Topics Advanced", "{2FEE9F27-6D29-455B-A439-85685F00D62A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Serialization", "1-Serialization", "{2FEE9F27-6D29-455B-A439-85685F00D62A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00_Library", "00_Library\00_Library.csproj", "{B4371A25-D50A-4618-B1D3-9C89CF9C3B28}"
 EndProject
@@ -20,6 +20,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_SerializeJSON", "03_SerializeJSON\03_SerializeJSON.csproj", "{FBFC26EE-0CE8-498D-B53E-EDCF154DFE00}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_DeserializeJSON", "04_DeserializeJSON\04_DeserializeJSON.csproj", "{2C4A2119-27CD-4E66-8E3D-BB41B983E7AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Advanced Topics", "2-Advanced Topics", "{ED8E5CF0-6C5D-4938-B7D5-50677CD3A908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Generics", "01_Generics\01_Generics.csproj", "{8BDD9386-D660-4EDA-9EC8-029A8F01844D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,10 @@ Global
 		{2C4A2119-27CD-4E66-8E3D-BB41B983E7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C4A2119-27CD-4E66-8E3D-BB41B983E7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C4A2119-27CD-4E66-8E3D-BB41B983E7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BDD9386-D660-4EDA-9EC8-029A8F01844D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDD9386-D660-4EDA-9EC8-029A8F01844D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDD9386-D660-4EDA-9EC8-029A8F01844D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDD9386-D660-4EDA-9EC8-029A8F01844D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +75,7 @@ Global
 		{98D6EDE1-A6CF-421A-8904-876FFC960594} = {2FEE9F27-6D29-455B-A439-85685F00D62A}
 		{FBFC26EE-0CE8-498D-B53E-EDCF154DFE00} = {2FEE9F27-6D29-455B-A439-85685F00D62A}
 		{2C4A2119-27CD-4E66-8E3D-BB41B983E7AD} = {2FEE9F27-6D29-455B-A439-85685F00D62A}
+		{8BDD9386-D660-4EDA-9EC8-029A8F01844D} = {ED8E5CF0-6C5D-4938-B7D5-50677CD3A908}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F27D4BEE-01ED-47A6-90A8-CB6367C0A122}
