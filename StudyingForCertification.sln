@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter - 1", "Chapter - 1", "{80D75EEB-61E6-4DAA-A015-4F4FBDAD5802}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Book-Chapter - 1", "Book-Chapter - 1", "{80D75EEB-61E6-4DAA-A015-4F4FBDAD5802}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Understanding-Threads", "1-Understanding-Threads\1-Understanding-Threads.csproj", "{99EB8A0D-1EBB-4AB7-9F41-6CD1E8D4C14E}"
 EndProject
@@ -26,6 +26,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Generics", "01_Generics\01_Generics.csproj", "{8BDD9386-D660-4EDA-9EC8-029A8F01844D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ExtensionMethods", "02_ExtensionMethods\02_ExtensionMethods.csproj", "{8A3A1A36-BB9D-4ED6-9900-3811B5DACA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-Using-ParameerizedThreadStart", "3-Using-ParameerizedThreadStart\3-Using-ParameerizedThreadStart.csproj", "{31EA28EF-A756-4FB1-8522-F2593029B62F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-Stopping-Thread", "4-Stopping-Thread\4-Stopping-Thread.csproj", "{9513DD29-ECB0-4597-80A8-037D949DFC96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-Using-Thread-Static-Attribute", "5-Using-Thread-Static-Attribute\5-Using-Thread-Static-Attribute.csproj", "{697AC588-D94E-41EE-98A3-E0CEBFEB9646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-Using-Thread-Local", "6-Using-Thread-Local\6-Using-Thread-Local.csproj", "{024FE193-FF81-41CE-B619-DB630BDD0AB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +77,22 @@ Global
 		{8A3A1A36-BB9D-4ED6-9900-3811B5DACA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A3A1A36-BB9D-4ED6-9900-3811B5DACA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A3A1A36-BB9D-4ED6-9900-3811B5DACA21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31EA28EF-A756-4FB1-8522-F2593029B62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31EA28EF-A756-4FB1-8522-F2593029B62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31EA28EF-A756-4FB1-8522-F2593029B62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31EA28EF-A756-4FB1-8522-F2593029B62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9513DD29-ECB0-4597-80A8-037D949DFC96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9513DD29-ECB0-4597-80A8-037D949DFC96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9513DD29-ECB0-4597-80A8-037D949DFC96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9513DD29-ECB0-4597-80A8-037D949DFC96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697AC588-D94E-41EE-98A3-E0CEBFEB9646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697AC588-D94E-41EE-98A3-E0CEBFEB9646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697AC588-D94E-41EE-98A3-E0CEBFEB9646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697AC588-D94E-41EE-98A3-E0CEBFEB9646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024FE193-FF81-41CE-B619-DB630BDD0AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024FE193-FF81-41CE-B619-DB630BDD0AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024FE193-FF81-41CE-B619-DB630BDD0AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024FE193-FF81-41CE-B619-DB630BDD0AB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +107,10 @@ Global
 		{2C4A2119-27CD-4E66-8E3D-BB41B983E7AD} = {2FEE9F27-6D29-455B-A439-85685F00D62A}
 		{8BDD9386-D660-4EDA-9EC8-029A8F01844D} = {ED8E5CF0-6C5D-4938-B7D5-50677CD3A908}
 		{8A3A1A36-BB9D-4ED6-9900-3811B5DACA21} = {ED8E5CF0-6C5D-4938-B7D5-50677CD3A908}
+		{31EA28EF-A756-4FB1-8522-F2593029B62F} = {80D75EEB-61E6-4DAA-A015-4F4FBDAD5802}
+		{9513DD29-ECB0-4597-80A8-037D949DFC96} = {80D75EEB-61E6-4DAA-A015-4F4FBDAD5802}
+		{697AC588-D94E-41EE-98A3-E0CEBFEB9646} = {80D75EEB-61E6-4DAA-A015-4F4FBDAD5802}
+		{024FE193-FF81-41CE-B619-DB630BDD0AB8} = {80D75EEB-61E6-4DAA-A015-4F4FBDAD5802}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F27D4BEE-01ED-47A6-90A8-CB6367C0A122}
