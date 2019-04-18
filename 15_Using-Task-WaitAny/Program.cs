@@ -17,6 +17,7 @@ namespace _15_Using_Task_WaitAny
 
             while (tasks.Length > 0)
             {
+                // Não espera que todas as tarefas sejam concluídas. Uma já é o sufuciente
                 int i = Task.WaitAny(tasks);
                 Task<int> completedTask = tasks[i];
 
